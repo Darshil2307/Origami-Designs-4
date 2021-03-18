@@ -1,0 +1,32 @@
+.grid img{
+  border: 2px solid black;
+  border-radius: 50px; 
+}
+
+.grid{
+    font-style: italic;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Cambria;
+    font-weight: 600;
+    color: #000000;
+}
+*{
+  background-color: rgb(255, 255, 255);  
+}
+
+.origami:hover img{
+ transform:scale(1.2);
+}
+
+a:link{
+  color :rgb(55, 85, 185)
+}
+
+a:visited{
+  color:rgb(202, 30, 30)
+}
